@@ -3,7 +3,7 @@ class Solution(object):
         l=0
         r=1
         high=0
-        for r in range(r,len(prices)):
+        for r in range(len(prices)):
             if prices[r]>prices[l]:
                 profit=prices[r]-prices[l]
                 high=max(high,profit)
